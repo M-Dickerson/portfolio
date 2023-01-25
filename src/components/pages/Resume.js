@@ -4,12 +4,12 @@ import Container from "react-bootstrap/Container";
 export default function Resume() {
     const onButtonClick = () => {
 
-        fetch('SamplePDF.pdf').then(response => {
+        fetch('Morgan_Dickerson_Resume.pdf').then(response => {
             response.blob().then(blob => {
                 const fileURL = window.URL.createObjectURL(blob);
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'SamplePDF.pdf';
+                alink.download = 'Morgan_Dickerson_Resume.pdf';
                 alink.click();
             })
         })
