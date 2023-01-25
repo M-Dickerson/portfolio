@@ -1,0 +1,14 @@
+.aboutContainer {
+    font-family: 'Mali', cursive;
+    font-size: large;
+    margin-top: 2%;
+}
+.aboutImage {
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 5%;
+}
+h1 {
+    text-align: right;
+    font-family: 'Send Flowers', cursive;
+}
