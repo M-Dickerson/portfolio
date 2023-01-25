@@ -61,8 +61,8 @@ const ContactForm = () => {
                         required
                     />
                 </div>
-                <div className="mb-3 pt-0">
-                    <Button className="button fButton" type="submit">Send a message</Button>
+                <div className="mb-3 pt-0 fButton">
+                    <Button className="button" type="submit">Send a message</Button>
                 </div>
             </form>
         </Container>
