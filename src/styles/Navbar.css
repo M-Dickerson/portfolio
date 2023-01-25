@@ -1,21 +1,16 @@
 .navbar {
-    display: flex;
-    background-color: #bd84a4;
-    font-family: 'Mali', cursive;
-  }
-  .navbar ul {
-    font-weight: bold;
-    font-size: 20px;
-    align-items: center;
-  }
-  a.nav-link {
-    color: #F8F7FF;
-  }
-  a.nav-link:hover {
-    color: #487ba6;
-  }
-  span.navbar-brand {
-    color:#F8F7FF;
-    font-size: 4vh;
-    font-family: 'Send Flowers', cursive;
-  }
+  background-color: #bd84a4;
+  font-family: 'Mali', cursive;
+}
+a.nav-link {
+  color: #F8F7FF;
+  font-size: 2vh;
+}
+a.nav-link:hover {
+  color: #487ba6;
+}
+span.navbar-brand {
+  color: #F8F7FF;
+  font-size: 4vh;
+  font-family: 'Send Flowers', cursive;
+}
