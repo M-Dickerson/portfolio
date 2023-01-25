@@ -10,19 +10,23 @@
 .middle {
     transition: .5s ease;
     opacity: 0;
-    top: 50%;
-    left: 50%;
-    transform: translate(30%, 150%);
+    transform: translate(10%, 200%);
     -ms-transform: translate(-50%, -50%)
 }
 .portImage:hover .image {
-    opacity: 0.4;
+    opacity: 0.4!important;
+    background-color: #000;
 }
 .portImage:hover .middle {
     opacity: 1;
 }
 .text {
-    color: #000;
-    font-size: 25px;
-    padding: 4px 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.button {
+    background-color: #9898bc!important;
+    border-color: #9898bc!important;
+    color: #fff!important;
+    margin-right: 3%;
 }

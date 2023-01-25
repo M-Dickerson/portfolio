@@ -6,9 +6,10 @@
     position: fixed;
     align-content: space-around;
     justify-content: center;
-    background-color: #BBD0FF;
+    background-color: #f7dddc;
 }
 .footer a {
     font-size: 30px;
     padding: 0 2%;
+    color: #F8F7FF;
 }

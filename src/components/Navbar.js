@@ -3,7 +3,7 @@ import "../styles/Navbar.css";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-export default function Navba({ handlePageChange }) {
+export default function Nvbar({ handlePageChange }) {
     return (
         <Nav className="navbar">
             <Nav defaultActiveKey="#About" as="ul">
