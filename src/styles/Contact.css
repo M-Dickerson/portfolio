@@ -1,0 +1,9 @@
+.form {
+    width: 100%;
+    border-color: #e9d0d5;
+    border-style: solid;
+    border-radius: 8px;
+}
+.fButton {
+    float: right;
+}

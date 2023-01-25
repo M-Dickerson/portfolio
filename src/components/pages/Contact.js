@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import "../../styles/Contact.css";
 // links for react bootstrap styling
 import Container from "react-bootstrap/Container";
-
+import Button from 'react-bootstrap/Button';
+// link to herotofu
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/c99230a0-9cdd-11ed-82c7-3d7607318e65";
-
+// displays a confirmation when the form is submitted
 const ContactForm = () => {
     const [submitted, setSubmitted] = useState(false);
     const handleSubmit = () => {
@@ -20,9 +22,11 @@ const ContactForm = () => {
             </>
         );
     }
-
+    // form code
     return (
-        <Container>
+        <Container className="aboutContainer">
+            <h1>Contact Me</h1>
+            <hr></hr>
             <form
                 action={FORM_ENDPOINT}
                 onSubmit={handleSubmit}
@@ -34,7 +38,7 @@ const ContactForm = () => {
                         type="text"
                         placeholder="Your name"
                         name="name"
-                        // className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+                        className="form"
                         required
                     />
                 </div>
@@ -43,7 +47,7 @@ const ContactForm = () => {
                         type="email"
                         placeholder="Email"
                         name="email"
-                        // className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+                        className="form"
                         required
                     />
                 </div>
@@ -51,17 +55,12 @@ const ContactForm = () => {
                     <textarea
                         placeholder="Your message"
                         name="message"
-                        // className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+                        className="form"
                         required
                     />
                 </div>
                 <div className="mb-3 pt-0">
-                    <button
-                        // className="bg-blue-500 text-white active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                        type="submit"
-                    >
-                        Send a message
-                    </button>
+                    <Button className="button fButton" type="submit">Send a message</Button>
                 </div>
             </form>
         </Container>
