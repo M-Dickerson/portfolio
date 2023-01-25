@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #C8B6FF;
+    font-family: 'Mali', cursive;
+    justify-content: center!important;
+  }
+  .navbar ul {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+  }
+  .nav a {
+    color: #fff;
+  }
+  .headerName {
+    color:#fff;
+    font-size: 40px;
+    font-family: 'Send Flowers', cursive;
+  }
