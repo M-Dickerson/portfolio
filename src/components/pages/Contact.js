@@ -3,8 +3,10 @@ import "../../styles/Contact.css";
 // links for react bootstrap styling
 import Container from "react-bootstrap/Container";
 import Button from 'react-bootstrap/Button';
-// link to herotofu
+
+// link to herotofu for form submission
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/c99230a0-9cdd-11ed-82c7-3d7607318e65";
+
 // displays a confirmation when the form is submitted
 const ContactForm = () => {
     const [submitted, setSubmitted] = useState(false);
