@@ -2,6 +2,7 @@ import React from "react";
 import "../../styles/Resume.css";
 // links for react bootstrap styling
 import Container from "react-bootstrap/Container";
+import Button from 'react-bootstrap/Button';
 
 export default function Resume() {
     const onButtonClick = () => {
@@ -22,7 +23,10 @@ export default function Resume() {
                 <center>
                     <h1>Resume</h1>
                     <hr></hr>
-                    <h2 className="rText">Download my resume:</h2><button onClick={onButtonClick}>here</button>
+                    
+                    <h2 className="rText">Download my resume: <a className="rButton" onClick={onButtonClick}>here</a></h2>
+                    <br></br>
+                    <br></br>
                     <h3 className="rText">Front End Proficiencies</h3>
                     <p className="rText">HTML, CSS, JavaScript, jQuery, responsive design, React, Bootstrap, Materalize</p>
                     <br></br>

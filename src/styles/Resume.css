@@ -1,3 +1,9 @@
 .rText {
     text-align: left;
 }
+.rButton {
+    color: #9898bc;
+}
+.rButton:hover {
+    color: #865472
+}
