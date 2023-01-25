@@ -13,7 +13,7 @@
     transform: translate(10%, 200%);
 }
 .portImage:hover .image {
-    opacity: 0.4!important;
+    opacity: 0.3!important;
     background-color: #000;
 }
 .portImage:hover .middle {

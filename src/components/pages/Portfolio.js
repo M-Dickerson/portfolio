@@ -16,7 +16,7 @@ export default function Portfolio() {
                 <Row>
                     <Col lg={6}>
                         <Card className="portImage">
-                            <Card.Img className="image" src="https://i.imgur.com/Go0ET3i.jpg" alt="Card image" />
+                            <Card.Img className="image" src="https://i.imgur.com/r4XKrnY.jpg" alt="a book on a white bedsheet next to coffee and a pair of glasses" />
                             <Card.ImgOverlay>
                                 <Card.Title className="middle text">NY Times Calendar</Card.Title>
                                 <Card.Text className="middle text">Javascript</Card.Text>
@@ -27,7 +27,7 @@ export default function Portfolio() {
                             </Card.ImgOverlay>
                         </Card>
                         <Card className="portImage">
-                            <Card.Img className="image" src="https://i.imgur.com/VQekBIJ.jpg" alt="Card image" />
+                            <Card.Img className="image" src="https://i.imgur.com/qz15czh.jpg" alt="a phone with the definition of design displayed on the screen" />
                             <Card.ImgOverlay>
                             <Card.Title className="middle text">My First Portfolio</Card.Title>
                                 <Card.Text className="middle text">Javascript</Card.Text>
@@ -38,19 +38,20 @@ export default function Portfolio() {
                             </Card.ImgOverlay>
                         </Card>
                         <Card className="portImage">
-                            <Card.Img className="image" src="https://i.imgur.com/VQekBIJ.jpg" alt="Card image" />
+                            <Card.Img className="image" src="https://i.imgur.com/CMYakyj.jpg" alt="no content here yet" />
                             <Card.ImgOverlay>
-                                <Card.Title className="middle text">Puppy Play Date!</Card.Title>
-                                <Card.Text className="middle text">
-                                    <Button href="https://github.com/M-Dickerson/pet-playdate">T</Button>
+                            <Card.Title className="middle text">Project 3</Card.Title>
+                                <Card.Text className="middle text">This is a placeholder</Card.Text>
+                                <Card.Text className="text middle">
+                                    <Button className="button" href="">GitHub</Button>
+                                    <Button className="button" href="">Deployed App</Button>
                                 </Card.Text>
-                                <Card.Text className="middle text">Placeholder text</Card.Text>
                             </Card.ImgOverlay>
                         </Card>
                     </Col>
                     <Col lg={6}>
                         <Card className="portImage">
-                            <Card.Img className="image" src="https://i.imgur.com/ornTUNs.jpg" alt="Card image" />
+                            <Card.Img className="image" src="https://i.imgur.com/vAka5lq.jpg" alt="a border collie running with a ball in its mouth" />
                             <Card.ImgOverlay>
                                 <Card.Title className="middle text">Puppy Play Date!</Card.Title>
                                 <Card.Text className="middle text">Node and Express</Card.Text>
@@ -61,23 +62,25 @@ export default function Portfolio() {
                             </Card.ImgOverlay>
                         </Card>
                         <Card className="portImage">
-                            <Card.Img className="image" src="https://i.imgur.com/ornTUNs.jpg" alt="Card image" />
+                            <Card.Img className="image" src="https://i.imgur.com/CMYakyj.jpg" alt="no content here yet" />
                             <Card.ImgOverlay>
-                                <Card.Title className="middle text">Puppy Play Date!</Card.Title>
-                                <Card.Text className="middle text">
-                                    <Button className="button" href="https://github.com/M-Dickerson/pet-playdate">T</Button>
+                            <Card.Title className="middle text">Project 3</Card.Title>
+                                <Card.Text className="middle text">This is a placeholder</Card.Text>
+                                <Card.Text className="text middle">
+                                    <Button className="button" href="">GitHub</Button>
+                                    <Button className="button" href="">Deployed App</Button>
                                 </Card.Text>
-                                <Card.Text className="middle text">Placeholder text</Card.Text>
                             </Card.ImgOverlay>
                         </Card>
                         <Card className="portImage">
-                            <Card.Img className="image" src="https://i.imgur.com/ornTUNs.jpg" alt="Card image" />
+                            <Card.Img className="image" src="https://i.imgur.com/CMYakyj.jpg" alt="no content here yet" />
                             <Card.ImgOverlay>
-                                <Card.Title className="middle text">Puppy Play Date!</Card.Title>
-                                <Card.Text className="middle text">
-                                    <Button href="https://github.com/M-Dickerson/pet-playdate">T</Button>
+                            <Card.Title className="middle text">Project 3</Card.Title>
+                                <Card.Text className="middle text">This is a placeholder</Card.Text>
+                                <Card.Text className="text middle">
+                                    <Button className="button" href="">GitHub</Button>
+                                    <Button className="button" href="">Deployed App</Button>
                                 </Card.Text>
-                                <Card.Text className="middle text">Placeholder text</Card.Text>
                             </Card.ImgOverlay>
                         </Card>
                     </Col>
