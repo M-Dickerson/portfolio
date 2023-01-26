@@ -16,6 +16,7 @@ The motivation and purpose behind this project was to re-create our first portfo
 After cloning all that's needed is an npm install
 
 ## Usage
+Link to deployed app: [here](https://M-Dickerson.github.io/portfolio)
 
 ![screenshot of about page](./src/images/screenshot1.png)
 ![screenshot of about page](./src/images/screenshot2.png)
