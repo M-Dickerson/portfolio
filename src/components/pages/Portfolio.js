@@ -62,13 +62,13 @@ export default function Portfolio() {
                             </Card.ImgOverlay>
                         </Card>
                         <Card className="portImage">
-                            <Card.Img className="image" src="https://i.imgur.com/CMYakyj.jpg" alt="no content here yet" />
+                            <Card.Img className="image" src="https://i.imgur.com/z4jfvR8.jpg" alt="a purple and orange gradient starry sky" />
                             <Card.ImgOverlay>
-                            <Card.Title className="middle text">Project 3</Card.Title>
-                                <Card.Text className="middle text">This is a placeholder</Card.Text>
+                            <Card.Title className="middle text">Journey Journals</Card.Title>
+                                <Card.Text className="middle text">MERN and react</Card.Text>
                                 <Card.Text className="text middle">
-                                    <Button className="button" href="">GitHub</Button>
-                                    <Button className="button" href="">Deployed App</Button>
+                                    <Button className="button" href="https://github.com/M-Dickerson/journey-journals">GitHub</Button>
+                                    <Button className="button" href="https://hidden-reef-01487.herokuapp.com/">Deployed App</Button>
                                 </Card.Text>
                             </Card.ImgOverlay>
                         </Card>
