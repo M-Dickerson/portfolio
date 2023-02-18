@@ -29,3 +29,13 @@
     color: #fff!important;
     margin-right: 3%;
 }
+/* Mobile styling */
+@media screen and (max-width: 539px){
+    .middle {
+        padding: 0;
+    }
+    .text {
+        font-weight: bold;
+        font-size: 12px;
+    }
+}
