@@ -1,14 +1,12 @@
 import React from "react";
 import "../styles/Navbar.css";
 
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import { Container, Nav, Navbar } from "react-bootstrap";
 
 function BasicExample({handlePageChange}) {
   return (
     <Navbar expand="lg">
-      <Container>
+      <Container class="navbar container">
         <Navbar.Brand>M. Dickerson</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

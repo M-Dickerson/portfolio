@@ -10,7 +10,7 @@
 .middle {
     transition: .5s ease;
     opacity: 0;
-    transform: translate(10%, 200%);
+    padding: 3%;
 }
 .portImage:hover .image {
     opacity: 0.3!important;

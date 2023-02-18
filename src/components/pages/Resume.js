@@ -2,7 +2,6 @@ import React from "react";
 import "../../styles/Resume.css";
 // links for react bootstrap styling
 import Container from "react-bootstrap/Container";
-import Button from 'react-bootstrap/Button';
 
 export default function Resume() {
     const onButtonClick = () => {

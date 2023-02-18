@@ -2,9 +2,7 @@ import React from "react";
 import Icon from "../../images/icon2.png";
 import "../../styles/About.css";
 // links for react bootstrap styling
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Container, Row, Col } from "react-bootstrap";
 
 export default function About() {
     return (

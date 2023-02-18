@@ -2,6 +2,10 @@
   background-color: #bd84a4;
   font-family: 'Mali', cursive;
 }
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+}
 a.nav-link {
   color: #F8F7FF;
   font-size: 2vh;
