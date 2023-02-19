@@ -20,6 +20,6 @@ i:hover {
 /* Mobile styling */
 @media screen and (max-width: 539px){
     body {
-        padding-bottom: 5%;
+        padding-bottom: 7%;
     }
 }
