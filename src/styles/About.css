@@ -1,6 +1,13 @@
+* {
+    background-color: var(--background);
+}
 div.card-header {
     display: flex;
     justify-content: space-between;
+    background-color: var(--window-border);
+}
+div.card-body {
+    background-color: var(--window-background);
 }
 div.accordianImage.card-header {
     justify-content: flex-end;

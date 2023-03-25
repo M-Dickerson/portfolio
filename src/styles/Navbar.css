@@ -1,3 +1,8 @@
-span.navbar-brand {
-  font-size: 4vh;
+:root {
+  --background: #FDE9EA;
+  --window-border: #869F77;
+  --window-background: #fff;
 }
+/* span.navbar-brand {
+  font-size: 4vh;
+} */
