@@ -1,14 +1,18 @@
+div.card-header {
+    display: flex;
+    justify-content: space-between;
+}
+div.accordianImage.card-header {
+    justify-content: flex-end;
+}
+i.fa-solid.fa-xmark, i.fa-regular.fa-window-restore, i.fa-solid.fa-window-minimize {
+    font-size: 25px;
+    padding-left: 5%;
+}
 .aboutContainer {
-    font-family: 'Mali', cursive;
     font-size: large;
     margin-top: 2%;
 }
 .aboutImage {
-    border-radius: 8px;
     width: 100%;
-    margin-bottom: 5%;
-}
-h1 {
-    text-align: right;
-    font-family: 'Send Flowers', cursive;
 }

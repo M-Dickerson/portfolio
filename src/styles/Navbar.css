@@ -1,20 +1,3 @@
-.navbar {
-  background-color: #bd84a4;
-  font-family: 'Mali', cursive;
-}
-.navbar .container {
-  display: flex;
-  justify-content: space-between;
-}
-a.nav-link {
-  color: #F8F7FF;
-  font-size: 2vh;
-}
-a.nav-link:hover {
-  color: #fae0df;
-}
 span.navbar-brand {
-  color: #F8F7FF;
   font-size: 4vh;
-  font-family: 'Send Flowers', cursive;
 }
