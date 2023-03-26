@@ -1,8 +1,22 @@
+/* colors */
 :root {
   --background: #FDE9EA;
   --window-border: #869F77;
   --window-background: #fff;
+  --dark-green: #588061;
 }
-/* span.navbar-brand {
-  font-size: 4vh;
-} */
+/* normal screen styles */
+#responsive-navbar-nav {
+  justify-content: space-around;
+  margin: 1% 0;
+  font-size: larger;
+  text-decoration: none;
+}
+/* hamburger menu styles*/
+nav.navbar.navbar-expand-lg.navbar-light {
+  justify-content: right;
+}
+/* link styles */
+a.nav-link {
+  color: var(--dark-green);
+}

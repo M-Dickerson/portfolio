@@ -1,6 +1,3 @@
-* {
-    background-color: var(--background);
-}
 div.card-header {
     display: flex;
     justify-content: space-between;
